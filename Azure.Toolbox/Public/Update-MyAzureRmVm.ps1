@@ -44,6 +44,6 @@ function Update-MyAzureRmVm {
     Write-Verbose "Starting VM: $Name"
     Start-AzureRmVm `
         -ResourceGroupName $resourceGroup `
-        -Name $vmName
+        -Name $Name
   }
 }
